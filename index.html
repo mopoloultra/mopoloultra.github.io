@@ -78,21 +78,22 @@
             <div class="container-fluid d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="offset-lg-2 col-lg-3 px-2 pl-lg-0 pb-5 pb-lg-0">
+                        <div class="offset-lg-1 col-lg-3 px-2 pl-lg-0 pb-5 pb-lg-0">
                             <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/mopolo.jpg" alt="">
                         </div>
-                        <div class="col-lg-7 text-center text-lg-left">
+                        <div class="col-lg-8 text-center text-lg-left">
                             <h2 class="text-white font-weight-bold mb-3">Hello there, I'm</h2>
                             <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Emmanuel Udoh</h1>
                             <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
                             <div class="typed-text d-none">Front End Developer, Web Developer, Web Designer, UI/UX Designer, Mobile App Developer</div>
                             <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                                <a href="resource/Udoh_Emmanuel_Resume.pdf" download class="btn btn-outline-light mr-5">Download My CV</a>
+                                <a href="resource/Udoh_Emmanuel_Resume.pdf" download class="btn btn-outline-light mr-2">Download My CV</a>
+                                <a href="#about" class="btn btn-outline-light mr-4">Link to My Bio</a>
                                 <button type="button" class="btn-play" data-toggle="modal"
-                                    data-src="https://www.youtube.com/embed/_BoIYLT1SHw" data-target="#videoModal">
+                                    data-src="https://www.youtube.com/embed/8MdgaUMx6x4" data-target="#videoModal">
                                     <span></span>
                                 </button>
-                                <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Pitch Video</h5>
+                                <h5 class="font-weight-normal text-white m-0 ml-2 d-none d-sm-block">Play Elevator Pitch Video</h5>
                             </div>
                         </div>
                     </div>
@@ -129,7 +130,7 @@
     <div class="container-fluid py-2" id="about">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Bio</h1>
                 <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
             </div>
             <div class="row align-items-center">
@@ -157,6 +158,134 @@
     </div>
     <!-- About End -->
 
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <p>Click on the link below to view my <strong>Group Pitch Video</strong> & <strong>Slide Deck</strong></p>
+                </div>
+                <div class="container">
+                    <div class="position-relative d-flex align-items-center justify-content-center">
+                        <div class="text-center mb-4">
+                            <a href="https://www.youtube.com/watch?v=8MdgaUMx6x4" target="_blank" class="btn btn-danger mr-3">Group Pitch Video</a>
+                        </div>
+                        <div class="text-center mb-4">
+                            <a href="https://docs.google.com/presentation/d/1eigYsyhFsecL3hoQd_6AOxpCEUIjFM1I4S_T_ZZmXTA/edit#slide=id.p1" target="_blank" class="btn btn-primary">Project Slide Deck</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Design</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Development</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/a.png" alt="">
+                        <div class="portfolio-btn bg-success d-flex align-items-center justify-content-center">
+                            <a href="img/a.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/b.png" alt="">
+                        <div class="portfolio-btn bg-success d-flex align-items-center justify-content-center">
+                            <a href="img/b.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/i.png" alt="">
+                        <div class="portfolio-btn btn-outline-dark d-flex align-items-center justify-content-center">
+                            <a href="img/i.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/c.png" alt="">
+                        <div class="portfolio-btn bg-info d-flex align-items-center justify-content-center">
+                            <a href="img/c.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/d.png" alt="">
+                        <div class="portfolio-btn bg-info d-flex align-items-center justify-content-center">
+                            <a href="img/d.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/h.png" alt="">
+                        <div class="portfolio-btn bg-info d-flex align-items-center justify-content-center">
+                            <a href="img/h.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/f.jpeg" alt="">
+                        <div class="portfolio-btn bg-warning d-flex align-items-center justify-content-center">
+                            <a href="img/f.jpeg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/g.jpg" alt="">
+                        <div class="portfolio-btn bg-danger d-flex align-items-center justify-content-center">
+                            <a href="img/g.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/e.jpeg" alt="">
+                        <div class="portfolio-btn bg-danger d-flex align-items-center justify-content-center">
+                            <a href="img/e.jpeg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
 
     <!-- Qualification Start -->
     <div class="container-fluid py-5" id="qualification">
@@ -179,7 +308,7 @@
                             <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
                             <h5 class="font-weight-bold mb-1">BSc. Computer Science & Information Technology</h5>
                             <p class="mb-2"><strong>Bowen University</strong> | <small>2008 - 2012</small></p>
-                            <p>Iwo, Osun state, Nigeria. </p>
+                            <p>Iwo, Osun, Nigeria. </p>
                         </div>
                         <div class="position-relative mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
@@ -195,7 +324,7 @@
                         <div class="position-relative mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
                             <h5 class="font-weight-bold mb-1">Senior Software Developer</h5>
-                            <p class="mb-2"><strong>FASYL Technology Group</strong> | <small>2015 - 2023</small></p>
+                            <p class="mb-2"><strong>FASYL Technology Group</strong> | <span class="font-weight-medium">Accra, Ghana</span> | <small>2015 - 2023</small></p>
                             <p>
                                 <ul>
                                     <li>
@@ -210,7 +339,7 @@
                         <div class="position-relative mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
                             <h5 class="font-weight-bold mb-1">Fullstack Developer</h5>
-                            <p class="mb-2"><strong>University Of Nebraska</strong> | <small>2022 - 2023</small></p>
+                            <p class="mb-2"><strong>University Of Nebraska</strong> | <span class="font-weight-medium">NE, United States</span> | <small>2022 - 2023</small></p>
                             <p>
                                 <ul>
                                     <li>
@@ -226,7 +355,7 @@
                         <div class="position-relative mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
                             <h5 class="font-weight-bold mb-1">Solutions Support Engineer</h5>
-                            <p class="mb-2"><strong>Parkway Projects</strong> | <small>2014 - 2015</small></p>
+                            <p class="mb-2"><strong>Parkway Projects</strong> | <span class="font-weight-medium">Lagos, Nigeria</span> | <small>2014 - 2015</small></p>
                             <p>
                                 <ul>
                                     <li>
@@ -411,88 +540,7 @@
     <!-- Services End -->
 
 
-    <!-- Portfolio Start -->
-    <div class="container-fluid pt-5 pb-3" id="portfolio">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Design</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Development</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio End -->
+    
 
 
     <!-- Testimonial Start -->
@@ -507,24 +555,24 @@
                     <div class="owl-carousel testimonial-carousel">
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                            <h4 class="font-weight-light mb-4">Emmanuel Udoh's portfolio showcases a remarkable combination of technical expertise and creative problem-solving skills. His projects demonstrate a deep understanding of software development, and his ability to lead complex initiatives is evident. I was particularly impressed with the mobile application he developed, which displayed a high level of innovation and user-centric design.</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-6.jpg" style="width: 80px; height: 80px;">
                             <h5 class="font-weight-bold m-0">Amosun Sunday</h5>
                             <span>Senior Tech Executive</span>
                         </div>
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                            <h4 class="font-weight-light mb-4">His work reflects a strong foundation in software development, with clean code, efficient solutions, and a focus on user experience. The successful execution of a complex project at FASYL Technology speaks volumes about his leadership and project management skills. I was also intrigued by his contributions to open-source projects, which demonstrate his willingness to share knowledge and collaborate with others.</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-5.jpg" style="width: 80px; height: 80px;">
                             <h5 class="font-weight-bold m-0">Ayobami Madamidola</h5>
-                            <span>Profession</span>
+                            <span>Senior Lecturer</span>
                         </div>
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
-                            <h5 class="font-weight-bold m-0">Client Name</h5>
-                            <span>Profession</span>
+                            <h4 class="font-weight-light mb-4">His projects exhibit a thorough understanding of industry best practices and a commitment to delivering high-quality software. The mobile application he developed showcased innovative features and a seamless user interface. Beyond his technical abilities, I was impressed by Emmanuel's financial aspirations, highlighting a forward-thinking approach to personal goals. </h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Oladokun Dayo</h5>
+                            <span>Senior Tech Consultant</span>
                         </div>
                     </div>
                 </div>
